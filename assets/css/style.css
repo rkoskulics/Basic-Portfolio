@@ -10,6 +10,10 @@ body{
 	
 
 }
+#pic_float{
+	float:left;
+	margin-right: 15px;
+}
 
 ul {
     list-style-type: none;
