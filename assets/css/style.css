@@ -104,6 +104,7 @@ h2{
 	border-bottom-style: solid;
 	border-bottom-color: #cccccc;
 	padding-bottom: 20px;
+	font-family: "Georgia", "Times", "Times New Roman", serif;
 }
 
 h3{
@@ -117,7 +118,7 @@ h3{
 
 /*This is where the CSS for portfolio starts*/
 .projectBox{
-	width: 650px;
+	width: 560px;
 	height:900px;
 	background-color: #ffffff;
 	position: absolute;
@@ -159,4 +160,20 @@ h3{
 	position: absolute;
 	bottom: 10px;
 	width:250px;
+}
+
+/*This is where the CSS for the Contact page starts*/
+#contact-info{
+	background-color: #ffffff;
+	width: 650px;
+	color: #cccccc;
+	font-size:120%;
+	font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	padding:10px;
+	margin:10px;
+	position: absolute;
+	left:150px;
+}
+textarea{
+	padding:25px;
 }
